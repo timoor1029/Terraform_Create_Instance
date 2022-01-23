@@ -1,7 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-  access_key = ""
-  secret_key = ""
 }
 #Virtual private cloud (VPC) — A virtual network dedicated to your AWS account.
 resource "aws_vpc" "prod-vpc" {
